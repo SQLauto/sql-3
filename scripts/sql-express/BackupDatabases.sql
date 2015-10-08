@@ -15,7 +15,7 @@ GO
 -- Parameter3: backup file location
 -- =============================================
  
-ALTER PROCEDURE [dbo].[BackupDatabases]  
+CREATE PROCEDURE [dbo].[BackupDatabases]  
             @databaseName sysname = null,
             @backupType CHAR(1),
             @backupLocation nvarchar(200) 

@@ -1,0 +1,1 @@
+sqlcmd -S .\SQLEXPRESS -Q "EXEC DumptransactionLogs"

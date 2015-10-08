@@ -1,0 +1,1 @@
+sqlcmd -S .\SQLEXPRESS -Q "EXEC BackupDatabases @backupLocation='E:\SQLBackups\', @BackupType='D'"
