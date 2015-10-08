@@ -1,0 +1,1 @@
+forfiles /p "e:\sql-jobs\" /s /m *.bak /c "cmd /c Del @path" /d -21
